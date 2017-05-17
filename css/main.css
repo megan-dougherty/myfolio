@@ -6,7 +6,7 @@ body {
 /*NAV SECTION*/
 nav {
 	background-color: #028F8A;
-	height: 60px;
+	height: 70px;
 	position: fixed;
 	z-index: 100;
 	left: 0;
@@ -156,7 +156,9 @@ nav ul {
 	background-image: url(../img/service.png);
 	background-size: cover;
 	display: inline-block;
-	padding-left: 10%;
+	padding-left: 7%;
+	padding-top: 3%;
+	padding-bottom: 3%;
 
 }
 
@@ -180,6 +182,7 @@ nav ul {
 }
 
 .serviceBox.left {
+	margin-top: 2%;
 	margin-left: 15%;
 
 }
@@ -229,10 +232,12 @@ nav ul {
 }
 /*ENTER INFO SECTION*/
 #enterInfo {
+	margin-top: 40px;
 	background-color: #0B0B0B;
-	height: 400px;
+	height: 150px;
 	text-align: center;
 	padding-top: 40px;
+
 }
 
 #enterInfo h3 {
@@ -247,6 +252,7 @@ nav ul {
 	border-left: none;
 	background-color: transparent;
 	width: 400px;
+	color: white;
 }
 
 #enterInfo button {
@@ -257,6 +263,7 @@ nav ul {
 	width: 120px; 
 	font-weight: 700
 	font-size: 14px;
+	cursor: pointer;
 }
 /*FOOTER*/
 footer {
