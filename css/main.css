@@ -14,6 +14,9 @@ nav {
 	top: 0;
 }
 
+
+
+
 nav h1 {
 	font-family: 'Open Sans', sans-serif
 	color: #fff;
@@ -36,6 +39,11 @@ nav a {
 	color: #FFFFF4;
 }
 
+nav a:hover {
+	color:#cfc91d;
+
+}
+
 nav ul {
 	position: absolute;
 	right: 25px;
@@ -43,6 +51,8 @@ nav ul {
 	float: right;
 
 }
+
+
 /*HEADER SECTION*/
 #header {
 	font-family: 'Open Sans', sans-serif;
